@@ -1,0 +1,67 @@
+.skill-main{
+    background-color: rgba(19, 22, 46, 0.5);
+    padding: 35px;
+}
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+.main-container > div{
+    /* .skill-content{ */
+    
+    background: rgba(120, 118, 118, 0.3);
+  
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    margin:2rem 4rem 
+
+}
+.main-container > div h2{
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.skill-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+.fa-circle-check{
+    margin-top: 6px;
+    color: rgb(8, 171, 207);
+}
+.inner-content{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+.details{
+    display: flex;
+    gap: 1rem;
+}
+.text-light{
+    color:rgba(213, 209, 209, 0.9)
+}
+@media  screen and (max-width:1024px){
+   
+.main-container{
+   /* color: pink; */
+    grid-template-columns: 1fr ;
+   
+} 
+.main-container > div{
+    width: 80%;padding: 2rem;
+    /* padding: 2.4rem 2rem; */
+    margin: 20px auto ;
+}
+
+}
+@media screen  and (max-width:640px){
+.main-container > div{
+
+    width: 100%;
+    padding: 2rem 1rem;
+}
+}

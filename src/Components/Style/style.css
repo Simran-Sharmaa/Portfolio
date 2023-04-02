@@ -1,0 +1,81 @@
+.container{
+    position: relative;
+    background: url("https://i.pinimg.com/564x/a0/57/af/a057afe4ded4705c350f58f5be2521af.jpg") ;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    
+    background-size: cover;
+}
+.container::before {
+    height: 100vh;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    opacity: 0.5;
+    background: black;
+}
+.content{
+    position: relative;
+    z-index: 0;
+    padding: 100px;
+    top:5%;
+   
+    text-align: center;
+}
+.photo{
+    /* width: 150px; */
+    width: 13rem;
+    border-radius: 95%;
+}
+.btn{
+
+    padding: 11px 30px;
+    /* color: black; */
+    margin: 15px;
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 6px;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.content .name{
+    font-size:x-large;
+}
+.content .fs{
+    font-size: xx-large;
+    margin: 12px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+@media screen and (max-width: 640px) {
+    /* .photo{
+        width:100px
+    } */
+    .content .name{
+        font-size: 20px;
+    }
+    .content .fs{
+       font-size: 1.5rem;
+        
+    }
+    .btn{
+        margin: 8px;
+        padding: 8px;
+    }
+    
+}
+@media screen and (max-width:400px){
+    .img{
+        width: 87px;
+    }
+    .content{
+        
+         padding: 0;
+        top:22%;
+    }
+}

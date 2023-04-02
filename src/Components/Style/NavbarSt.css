@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Mynerve&family=PT+Sans+Narrow&family=Signika+Negative&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+
+  font-family: "Signika Negative", sans-serif;
+}
+ body{
+  background: black;
+  color: aliceblue; 
+} 
+body::after{
+
+  opacity: 0.8;
+}
+.header {
+ position: relative;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 1.2rem;
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  z-index: 10;
+}
+.header-bg{
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  background-color:  rgb(125 125 125 / 80%);
+  transition:0.5s
+}
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu li {
+  padding: 10px 1rem;
+  /* margin: 10px; */
+  list-style-type: none;
+  /* background-color: blue; */
+  cursor: pointer;
+  /* border-radius: 5%; */
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.nav-menu li a:hover {
+  color: rgb(159, 58, 58);
+  transition: 0.8s;
+}
+.header .menu {
+  display: none;
+}
+@media screen and (max-width: 1040px) {
+  .nav-menu {
+    flex-direction: column;
+    align-items: center;
+    transition: 0.2s;
+    background: #0d0d11d4;
+    padding-top: 111px;
+    height: 100vh;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    left: -100%;
+  }
+  .active {
+    left: 0;
+  }
+  .header {
+    flex-direction: column;
+    z-index: 1;
+  }
+  .nav-menu li {
+    padding: 1rem 0;
+  }
+
+  .nav-menu li a {
+    font-size: x-large;
+  }
+  .header .menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    padding: 10px;
+  }
+}
+@media screen and (max-width:400px){
+
+
+  .nav-menu li a {
+    font-size: large;
+}
+}
