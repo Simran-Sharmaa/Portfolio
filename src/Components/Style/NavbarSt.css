@@ -48,7 +48,7 @@ body::after{
   color: aliceblue;
 }
 .nav-menu li a:hover {
-  color: rgb(159, 58, 58);
+  color: rgb(58, 149, 159);
   transition: 0.8s;
 }
 .header .menu {

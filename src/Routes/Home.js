@@ -19,7 +19,7 @@ function Home() {
     <div className='content'>
     <img className='photo' src={image} alt='me'/>
     <p className='name'>Hi , My name is Simran Sharma </p>
-    <p className='fs'>Full Stack Developer</p>
+    <p className='fs'>Web Developer</p>
    
       <button className='btn'><Link to ="/project">Projects</Link></button>
       <button className='btn'><Link to ="/contact">Contact</Link></button>

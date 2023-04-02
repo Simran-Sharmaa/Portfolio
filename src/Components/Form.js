@@ -3,15 +3,15 @@ import './Style/FormStyle.css'
 function Form() {
   return (
     <div className='form'>
-        <form>
+        <form action='https://formspree.io/f/xdovwwjo' method='post'>
             <label> Your Name</label>
-            <input type="text"></input>
+            <input type="text" name='email'required ></input >
             <label >Email</label>
-            <input type='email'></input>
-            <label>Subject</label>
-            <input type='text'></input>
+            <input type='email'required></input>
+            {/* <label>Subject</label>
+            <input type='text' name='subject'></input> */}
             <label >Message</label>
-            <textarea rows='6' placeholder='Type your message here'/>
+            <textarea rows='6'name='message' placeholder='Type your message here'required/>
             <button className='btn'>Submit</button> 
         </form>
     </div>
