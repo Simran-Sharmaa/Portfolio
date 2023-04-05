@@ -14,21 +14,21 @@ const ProjectData=[
     },
     {
         imgsrc:shopping,
-        title:"Ecommerce Website",
+        title:"Parsim Point",
         text:"An amazing shopping website where you can add items into your cart",
-        source:"https://github.com/Simran-Sharmaa/Notebook"
+        source:"https://github.com/Simran-Sharmaa/Parsim_Point"
     },
     {
         imgsrc:news,
         title:"Newsistan",
         text:"Here you will be able to find the latest news also you can filter news according to your interst",
-        source:"https://github.com/Simran-Sharmaa/Notebook"
+        source:"https://github.com/Simran-Sharmaa/Newsistan/tree/master"
     },
     {
         imgsrc:weather,
         title:"Mausam",
         text:"A simple website where you can check live weather after entering the location",
-        source:"https://github.com/Simran-Sharmaa/Notebook"
+        source:"https://github.com/Simran-Sharmaa/Weather"
     },
 ]
 export default ProjectData
