@@ -26,7 +26,7 @@ function Navbar() {
             <h2>Portfolio</h2>
             <nav>
                 <ul className={bars?" nav-menu": " active nav-menu"}>
-                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/Portfolio">Home</Link></li>
                     <li><Link to="/project">Projects</Link></li>
                     <li><Link to="/about">About</Link></li>
                     <li><Link to="/contact">Contact </Link></li>
