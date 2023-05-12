@@ -5,9 +5,9 @@ function Form() {
     <div className='form'>
         <form action='https://formspree.io/f/xdovwwjo' method='post'>
             <label> Your Name</label>
-            <input type="text" name='email'required ></input >
+            <input type="text" name='name'required ></input >
             <label >Email</label>
-            <input type='email'required></input>
+            <input type='email' name='email' required></input>
             {/* <label>Subject</label>
             <input type='text' name='subject'></input> */}
             <label >Message</label>
