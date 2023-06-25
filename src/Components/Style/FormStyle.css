@@ -49,6 +49,9 @@ input,textarea{
     }
     .btn {
         margin: 12px;
-    }    
+    }  
+    .hero-img p {
+        font-size: 0.5rem;
+    }  
 
 }
