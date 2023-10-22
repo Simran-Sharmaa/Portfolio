@@ -17,7 +17,7 @@ function Navbar() {
     }
 
     window.addEventListener("scroll",handleScroll)
-    console.log(nvScroll);
+    // console.log(nvScroll);
   return (
     <>
 

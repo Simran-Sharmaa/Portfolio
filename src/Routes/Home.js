@@ -5,7 +5,7 @@ import '../Components/Style/style.css'
 import Navbar from '../Components/Navbar'
 import image from '../Components/Assets/IMG20220304153027.jpg'
 import Footer from '../Components/Footer'
-
+import AboutNew from '../Components/AboutNew'
 import Skills from '../Components/Skills'
 function Home() {
  
@@ -33,7 +33,8 @@ function Home() {
       {/* <About/>
       <Project/>
       <Contact/> */}
-      <Skills/>
+      <AboutNew/>
+      {/* <Skills/> */}
 
       <Footer/>
     </>
