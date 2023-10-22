@@ -31,6 +31,9 @@ body::after{
   background-color:  rgb(125 125 125 / 80%);
   transition:0.5s
 }
+.header h2 a{
+  text-decoration: none;
+}
 .nav-menu {
   display: flex;
 }

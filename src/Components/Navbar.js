@@ -23,7 +23,7 @@ function Navbar() {
 
 {/* <div className="container"> */}
         <div className={nvScroll?"header header-bg":"header"}>
-            <h2>Portfolio</h2>
+            <h2><Link to="/">Portfolio</Link></h2>
             <nav>
                 <ul className={bars?" nav-menu": " active nav-menu"}>
                     <li><Link to="/">Home</Link></li>
