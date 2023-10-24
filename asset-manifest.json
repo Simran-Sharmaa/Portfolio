@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7be6e2f3.css",
-    "main.js": "/Portfolio/static/js/main.12bb7e60.js",
+    "main.css": "/Portfolio/static/css/main.bf141319.css",
+    "main.js": "/Portfolio/static/js/main.7917ea1c.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/IMG20220304153027.jpg": "/Portfolio/static/media/IMG20220304153027.0323a316339105f94252.jpg",
     "static/media/Simran Resume.pdf": "/Portfolio/static/media/Simran Resume.eb712de88dd3ef0df98a.pdf",
     "static/media/shopping.png": "/Portfolio/static/media/shopping.e486b0200bf846694aeb.png",
     "static/media/news.png": "/Portfolio/static/media/news.b6e199571631ff5ee660.png",
     "static/media/weather.png": "/Portfolio/static/media/weather.5e3a210b9fcaac79fa72.png",
+    "static/media/buzztalk.png": "/Portfolio/static/media/buzztalk.be876854538ea99d7c63.png",
     "static/media/Notebook.png": "/Portfolio/static/media/Notebook.de9438d75dd7588c77eb.png",
     "static/media/-removebg-preview.png": "/Portfolio/static/media/79c51d0e3a3f60b504da6bcc20ab1afc-removebg-preview.9b8b0b3d97670c597088.png",
     "index.html": "/Portfolio/index.html",
-    "main.7be6e2f3.css.map": "/Portfolio/static/css/main.7be6e2f3.css.map",
-    "main.12bb7e60.js.map": "/Portfolio/static/js/main.12bb7e60.js.map",
+    "main.bf141319.css.map": "/Portfolio/static/css/main.bf141319.css.map",
+    "main.7917ea1c.js.map": "/Portfolio/static/js/main.7917ea1c.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7be6e2f3.css",
-    "static/js/main.12bb7e60.js"
+    "static/css/main.bf141319.css",
+    "static/js/main.7917ea1c.js"
   ]
 }
