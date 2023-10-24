@@ -58,7 +58,7 @@ function Skills() {
 
 
                 <h4>Bootstrap</h4>
-                <small className='text-light'>Begginer</small>
+                <small className='text-light'>Beginner</small>
 </div>
             </article>
             </div>
@@ -74,7 +74,7 @@ function Skills() {
 
 
                 <h4>Node JS</h4>
-                <small className='text-light'>Begginer</small>
+                <small className='text-light'>Beginner</small>
 </div>
             </article>
             <article className='details'>
@@ -83,7 +83,7 @@ function Skills() {
 
 
                 <h4>Express JS</h4>
-                <small className='text-light'>Begginer</small>
+                <small className='text-light'>Beginner</small>
 </div>
             </article>
             <article className='details'>
@@ -92,7 +92,7 @@ function Skills() {
 
 
                 <h4>Mongo DB</h4>
-                <small className='text-light'>Begginer</small>
+                <small className='text-light'>Beginner</small>
 </div>
             </article>
                 </div>
